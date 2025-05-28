@@ -1,22 +1,38 @@
+:root {
+    --dark-background-color: darkblue;
+    --dark-text-color: darkblue;
+    --light-text-color: white;
+    --border: 1px solid black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selectors */
+
 nav {
-    background-color: darkblue;
+    background-color: var(--dark-background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--light-text-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--dark-text-color);
 }
 
 main img {
+    float:right;
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -31,11 +47,6 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 1rem;
-    background-color: darkblue;
-    color: white;
     text-align: center;
 }
 
@@ -46,6 +57,28 @@ aside img {
 
 footer {
     margin-top: 1rem;
-    border-top: 1px solid black;
+    border-top: var(--border);
     text-align: center;
 }
+
+li > a {
+    color: inherit;
+}
+
+/* Class Selectors */
+
+.box {
+    clear:both;
+    margin: 1rem;
+    border: var(--border);
+    padding: 1rem;
+    background-color: var(--dark-background-color);
+    color: var(--light-text-color);
+}
+
+.border {
+    border: 1px solid red;
+}
+
+
+/* ID Selectors */
