@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #FDFFFC; /*Baby Powder*/
+    --secondary-color: #010000; /*black*/
+    --accent1-color: #2EC4B6; /*Light Sea Green*/
+    --accent2-color: #00AC00; /*Kelly Green*/
+    --heading-font: "Kapakana", sans-serif; 
+    --body-font: "Ancizar Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selectors */
+
+header {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color)
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--secondary-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+h1 {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 5rem;
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+article {
+    position: absolute;
+    top: 300px;
+    width: 95%;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    font-weight: bolder;
+}
+
+/* Class Selectors */
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    max-width: 50px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
