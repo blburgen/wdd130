@@ -1,0 +1,43 @@
+/* :root{
+
+}*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, form {
+    max-width: 500px;
+}
+
+form {
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: grid;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+}
+
+.submit {
+    background-color: darkblue;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: larger;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: forestgreen;
+}
+
+.displayText {
+    background-color: black;
+    color: white;
+    margin: 0 2rem 1rem;
+    padding: 1rem;
+    font-size: smaller;
+}
