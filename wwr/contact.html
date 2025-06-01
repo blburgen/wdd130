@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Student website for a white water rafting project contact page">
+        <meta name="author" content="Brady Burgener">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Kapakana:wght@300..400&display=swap" rel="stylesheet">
+        <title>Contact | White Water Rafting Company</title>
+        <link rel="stylesheet" href="./styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/z-raftingcompas.jpg" alt="Rafting Company Logo">
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <img src="./images/rafting41_1024.jpg" alt="Rafting Hero Image">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p>Not Real St Main St. | Idaho Falls, ID 83401<br>
+                (800) NOT-REAL | info@notrealraftingcompany.com</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d2894.39288174093!2d-112.0436955128608!3d43.49413896304406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d43.493061!2d-112.04460739999999!5e0!3m2!1sen!2sus!4v1748793685893!5m2!1sen!2sus" 
+                width="680" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="employees">
+                <figure>
+                    <img src="./images/President.jpg" alt="President Image">
+                    <figcaption>President</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/DareDevil.jpg" alt="Dare Devil Image">
+                    <figcaption>Our Resident Dare Devil</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/RouteCordinator.jpg" alt="Route Cordinator Imgage">
+                    <figcaption>Our Route Cordinator</figcaption>
+                </figure>
+            </div>
+            <form>
+                <label for="name">Your Name (required):</label>
+                <input type="text" id="name" required><br>
+
+                <label for="email">Your Email (required):</label>
+                <input type="email" name="email" id="email" required><br>
+
+                <label>What your message is about:</label>
+                <div>
+                    <input type="radio" name="purpose" id="general" value="General Inquiry">
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" name="purpose" id="reservation" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" name="purpose" id="website" value="Website Suggestion">
+                    <label for="website">Website Suggestion</label>
+                </div><br>
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="10"></textarea><br>
+
+                <div>
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter.</label>
+                </div><br>
+                
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p>
+                &copy;2025 | White Water Rafting | Brady Burgener
+            </p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com"><img src="./images/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com"><img src="./images/twitter.png" alt="Twitter"></a>
+                <a href="https://instagram.com"><img src="./images/instagram.png" alt="Instagram"></a>
+            </nav>
+        </footer>
+    </body>
+</html>

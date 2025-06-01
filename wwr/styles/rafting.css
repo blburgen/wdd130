@@ -78,6 +78,25 @@ article {
     font-weight: bolder;
 }
 
+form {
+    display: grid;
+    background-color: var(--accent1-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: larger;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: larger;
+}
+
+textarea {
+    padding: 0.5rem;
+    font-size: larger;
+}
+
 footer {
     display: flex;
 }
@@ -150,5 +169,37 @@ footer {
 
 .adventure h2 {
     grid-area: title;
+}
+
+.contact {
+    text-align: center;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.employees img {
+    display: block;
+    height: 100%;
+}
+
+.submit {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: larger;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 20rem;
+    margin: auto;
+    max-width: 50%;
+}
+
+.submit:hover {
+    background-color: var(--accent2-color);
+    cursor: pointer;
 }
 
