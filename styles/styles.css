@@ -1,0 +1,32 @@
+main {
+    max-width: 840px;
+}
+
+p {
+    padding: 0;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: lightgray;
+    color: darkblue;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
