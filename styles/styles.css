@@ -12,15 +12,7 @@ h1 {
 }
 
 p {
-    padding: 10px;
-}
-
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    padding: 0;
 }
 
 aside {
@@ -41,6 +33,9 @@ footer {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 
 nav a {
