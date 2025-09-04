@@ -3,6 +3,12 @@
     --dark-color: darkblue;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
 }
@@ -22,11 +28,8 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: var(--border);
-    padding: 1rem;
-    background-color: lightgray;
-    color: var(--dark-color);
+    position: relative;
+
 }
 
 footer {
@@ -41,6 +44,7 @@ main img {
     border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 nav a {
@@ -52,4 +56,20 @@ nav a {
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: var(--border);
+    padding: 1rem;
+    background-color: lightgray;
+    color: var(--dark-color);
 }
