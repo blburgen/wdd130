@@ -66,6 +66,10 @@ aside h2 {
     left: 100px;
 }
 
+li {
+    margin-left: 1rem;
+}
+
 /* Class Selectors */
 
 .box {
