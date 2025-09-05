@@ -1,6 +1,6 @@
 :root {
     --primary-color: forestgreen;
-    --secondary-color: bisque;
+    --secondary-color: white;
     --accent1-color: darkslategray;
     --accent2-color: goldenrod;
     --heading-font: 'Times New Roman', Times, serif;
@@ -43,7 +43,7 @@ h1 {
     text-align: center;
     opacity: .8;
     background-color: var(--accent1-color);
-    color: white;
+    color:  var(--secondary-color);
 }
 
 
@@ -74,4 +74,18 @@ h1 {
     width: 125px;
     height: auto;
     margin: 16px;
+}
+
+.moon {
+    float: right;
+    width: 200px;
+}
+
+.moon img {
+    width: 100%;
+    height: auto;
+}
+
+.adventure {
+    clear: both;
 }
