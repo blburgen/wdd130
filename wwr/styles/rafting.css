@@ -145,6 +145,12 @@ footer {
     clear: both;
 }
 
+.figures figure:hover {
+    scale: 2;
+    background-color: var(--accent2-color);
+    padding: 10px;
+} 
+
 .figures {
     width: 100%;
     height: auto;
