@@ -41,7 +41,7 @@ nav, p, section, article {
     padding: 8px;
 }
 
-nav {
+header nav {
     grid-column: 2/4;
     width: 100%;
     display: flex;
@@ -49,7 +49,7 @@ nav {
     justify-content: space-around;
 }
 
-nav a {
+header nav a {
     display: block;
     padding: 1rem;
     border: 1px solid black;
@@ -61,8 +61,8 @@ nav a {
     color: var(--accent1-color);
 }
 
-nav a:hover {
-    scale: .8;
+header nav a:hover {
+    scale: .9;
     box-shadow: 0 0 2rem black;
 }
 
@@ -75,6 +75,13 @@ h1 {
     opacity: .8;
     background-color: var(--accent1-color);
     color:  var(--secondary-color);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -90,8 +97,20 @@ h1 {
     height: auto;
 }
 
+.socialmedia {
+    float: right;
+}
+
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia a img {
+    width: 50px;
+}
+
+.socialmedia a img:hover {
+    scale: .85;
 }
 
 .hero article {
@@ -126,10 +145,19 @@ h1 {
     clear: both;
 }
 
-.ImageAdventure {
-    width: 49%;
+.figures {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.tall {
-    float: right;
+.figures figure figcaption {
+    width: 150px;
+}
+
+.figures figure img {
+    width: 150px;
+    height: auto;
 }
