@@ -1,0 +1,88 @@
+:root {
+    --border: 1px solid black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    margin: 0 auto;
+    width: 850px;
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    margin: 0 auto;
+    padding: 1rem;
+    border: var(--border);
+    border-radius: 1rem;
+    width: 850px;
+    background-color: aquamarine;
+}
+
+fieldset {
+    display: grid;
+    gap: 1rem;
+    border: var(--border);
+    padding: 1rem;
+    font-weight: 700;
+    background-color: bisque;
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    
+}
+
+label, input, button, select, textarea {
+    font-size: 1.3rem;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+.button {
+    margin: 1rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+footer {
+    margin: 1rem auto;
+    width: 850px;
+    text-align: center;
+    font-size: 1rem;
+}
