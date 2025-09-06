@@ -95,6 +95,12 @@ footer {
     font-size: 1.5rem;
 }
 
+.mapimage {
+    width: 200px;
+    height: 200px; 
+    border:0;
+}
+
 .hero {
     position: relative;
 }
