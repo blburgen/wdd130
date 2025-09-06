@@ -40,6 +40,11 @@ h1 {
     font-size: 4rem;
 }
 
+h2 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
+
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
@@ -90,7 +95,7 @@ form {
 }
 
 .column2 {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
 }
 
 .column1 {
@@ -99,7 +104,7 @@ form {
 
 .purpose {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
 }
 
 .abouth1 {
@@ -115,6 +120,7 @@ form {
 .middle {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 2rem;
 }
 
 .contact {
@@ -123,9 +129,9 @@ form {
 }
 
 .mapimage {
-    margin: 50px 65px;
+    margin: 60px 60px;
     width: 250px;
-    height: 200px; 
+    height: 250px; 
     border:0;
     scale: 1.5;
 }
@@ -209,4 +215,34 @@ form {
 .figures figure img {
     width: 150px;
     height: auto;
+}
+
+input[type="checkbox"] {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 5px 0; 
+}
+
+textarea, input {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 5px;
+}
+
+#submit {
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    padding: .5rem;
+}
+
+#submit:hover {
+    scale: .9;
+}
+
+.lablepurpose {
+    align-content: center;
+}
+
+input[type="radio"] {
+    margin: 10px 0;
 }
