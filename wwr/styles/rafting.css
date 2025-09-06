@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
@@ -66,17 +70,6 @@ header nav a:hover {
     box-shadow: 0 0 2rem black;
 }
 
-h1 {
-    position: absolute;
-    font-size: 4rem;
-    top: 20px;
-    width: 100%;
-    padding: 10px;
-    opacity: .8;
-    background-color: var(--accent1-color);
-    color:  var(--secondary-color);
-}
-
 footer {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -86,6 +79,21 @@ footer {
 
 
 /* Class Selectors */
+
+.abouth1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 10px;
+    opacity: .8;
+    background-color: var(--accent1-color);
+    color:  var(--secondary-color);
+}
+
+.contact {
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 .hero {
     position: relative;
