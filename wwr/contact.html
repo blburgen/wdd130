@@ -21,31 +21,72 @@
     <main>
         <h1>The Rapids</h1>
         <p class="contact">123 Dream Land Street<br>Dream, California<br>+1 999 999 9999<br>info@rapids.com</p>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d35482.66851657745!2d-122.92074786460502!3d38.13338914007276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1757179723451!5m2!1sen!2sus" 
-                class="mapimage" allowfullscreen="" loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
+        <section class="middle">
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d100425.36287829537!2d-122.92074799999999!3d38.133389!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1757182522591!5m2!1sen!2sus" 
+                    class="mapimage" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <form action="">
+                <div class="form-item column2">
+                    <label for="fullname">Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your Full Name">
+                </div>
+                <div class="form-item column2">
+                    <label for="usermail">Email:</label>
+                 <input type="email" name="usermail" id="usermail" placeholder="YourEmail@gmail.com">
+                </div>  
+                <div class="purpose">
+                    <label for="purpose">Message Purpose</label>
+                    <div>
+                        <div>
+                            <input type="radio" name="purpose" id="inquiry">
+                            <label for="inquiry">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="purpose" id="question">
+                            <label for="question">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="purpose" id="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div> 
+                </div>
+                <div class="form-item">
+                    <label for="message" class="center">Message:</label>
+                    <textarea name="message" id="message" placeholder="Type here" rows="4"></textarea>
+                </div>
+                <div class="form-item column1">
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    <label for="subsribe">Please Subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Contact Us and Let the Dreams Start!</button>
+            </form>
+        </section>
         <section>
-            <figure>
-                <img src="images/jack.jpg" alt="Image of Jack">
-                <figcaption>
-                    Jack is our team lead.  He guides us through the toughest waters.
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="images/jim.jpg" alt="Image of Jim">
-                <figcaption>
-                    Jim is our safety coordinator.  He keep an eye out for rocks.
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="images/tom.jpg" alt="Image of Tom">
-                <figcaption>
-                    Tom is the best PR representative there is.  He will make you fill good as you get wet.
-                </figcaption>
-            </figure>
+            <h2>We Are Here to Serve You</h2>
+            <div class="figures">
+                <figure>
+                    <img src="images/jack.jpg" alt="Image of Jack">
+                    <figcaption>
+                        Jack is our team lead.  He guides us through the toughest waters.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/jim.jpg" alt="Image of Jim">
+                    <figcaption>
+                        Jim is our safety coordinator.  He keep an eye out for rocks.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/tom.jpg" alt="Image of Tom">
+                    <figcaption>
+                        Tom is the best PR representative there is.  He will make you fill good as you get wet.
+                    </figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <footer>

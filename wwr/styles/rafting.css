@@ -77,8 +77,30 @@ footer {
     text-align: center;
 }
 
+form {
+    display: grid;
+}
+
 
 /* Class Selectors */
+.form-item {
+    display: grid;
+    align-items: center;
+
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.column1 {
+    grid-template-columns: 1fr 7fr;
+}
+
+.purpose {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
 
 .abouth1 {
     position: absolute;
@@ -90,15 +112,22 @@ footer {
     color:  var(--secondary-color);
 }
 
+.middle {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 .contact {
     text-align: center;
     font-size: 1.5rem;
 }
 
 .mapimage {
-    width: 200px;
+    margin: 50px 65px;
+    width: 250px;
     height: 200px; 
     border:0;
+    scale: 1.5;
 }
 
 .hero {
