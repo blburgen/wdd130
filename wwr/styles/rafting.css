@@ -330,6 +330,22 @@ td {
     width: 100%;
 }
 
+.no-border {
+    border: 0;
+    padding: 0;
+}
+
+.even-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.even-images img {
+    width: 100%;
+    height: auto;
+}
+
 /* Id Selectors */
 
 #submit {
