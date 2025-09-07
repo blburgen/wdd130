@@ -126,7 +126,27 @@ legend {
     background-color: var(--secondary-color);
 }
 
+table {
+    text-align: center;
+}
+
+th {
+    font-size: 1.3rem;
+    font-weight: 1000;
+    /* border: 1px solid var(--accent1-color); */
+}
+
+td {
+    font-size: 1.2rem;
+    padding: 30px;
+    border: 1px solid var(--accent1-color);
+}
+
 /* Class Selectors */
+
+.column {
+    width: 40%;
+}
 
 .contact {
     text-align: center;
@@ -267,6 +287,11 @@ legend {
     grid-template-columns: 1fr 1fr;
 }
 
+.heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .call-to-action {
     width: 100%;
     position: relative;
@@ -284,13 +309,13 @@ legend {
     height: auto;
 }
 
-.call-to-action div {
+.call-to-action div, .action div {
     width: 100%;
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     text-align: center;
     font-size: 1.4rem;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: var(--accent1-color);
     color: var(--secondary-color);
 }
