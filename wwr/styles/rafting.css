@@ -1,7 +1,7 @@
 :root {
     --primary-color: rgb(2, 73, 2);
     --secondary-color: white;
-    --accent1-color: darkslategray;
+    --accent1-color: rgb(27, 44, 44);
     --accent2-color: rgb(236, 203, 118);
     --heading-font: 'Times New Roman', Times, serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -291,6 +291,9 @@ td {
 .heading {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    position: sticky;
+    top: 0;
+    background-color: var(--secondary-color);
 }
 
 .call-to-action {
@@ -310,7 +313,8 @@ td {
     height: auto;
 }
 
-.call-to-action div, .action div {
+.call-to-action .bottom {
+    z-index: 1;
     width: 100%;
     position: absolute;
     bottom: 15px;
@@ -319,6 +323,25 @@ td {
     opacity: 0.9;
     background-color: var(--accent1-color);
     color: var(--secondary-color);
+}
+
+.call-to-action .top {
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 1.4rem;
+    opacity: 0.9;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+
+.topshort{
+    top: 55px;
+}
+
+.toptall {
+    top: 15px;
 }
 
 .offerings {
